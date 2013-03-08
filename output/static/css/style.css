@@ -1,6 +1,53 @@
 body {
   background: url('/static/img/cardboard_flat.png');
   padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-  font-family: Lato, "Tw Cen MT", Futura, sans-serif;
-  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.circle {
+  background: rgba(255, 246, 213, 1);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.large{
+  font-size: 8em;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  text-shadow: 5px 5px 0 #222;
+  text-transform: uppercase;
+  -webkit-transform: rotate(30deg); 
+  /*-moz-transform: rotate(30deg); */
+  /*transform: rotate(30deg);*/
+}
+
+.cheeses{
+  color: rgba(255, 128, 128, 1);
+  margin-top: 30px;
+}
+
+.mexico{
+  color: rgba(135, 222, 205, 1);
+}
+
+.of{
+  font-family: serif;
+  color: #333;
+}
+
+.social{
+  text-align: center;
+}
+
+.social img{
+  background: #333;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+h2{
+  text-transform: lowercase;
 }
