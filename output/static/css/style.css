@@ -8,6 +8,9 @@ body {
 
 .circle {
   background-image: -moz-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
+  background-image: -o-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
+  background-image: linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
   border-radius: 50%;
   width: 400px;
   height: 400px;
