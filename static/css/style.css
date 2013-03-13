@@ -30,6 +30,7 @@ body {
 .cheeses h1{
   color: rgba(255, 128, 128, 1);
   letter-spacing: 0.2em;
+  padding-top: 100px;
   /*margin-left: -100px;*/
 }
 
@@ -41,6 +42,9 @@ body {
 .of{
   font-family: serif;
   color: #333;
+  font-size: 4em;
+  padding-left: 50px;
+  margin-top: -30px;
 }
 
 .rotate{
