@@ -1,5 +1,8 @@
 body {
-  background: #ececec;
+  background: #ececec; /*url('../img/bg_logo.png');*/
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 /*  padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
 */  font-family: "Helvetica Neue", Helvetica, sans-serif;
   /*font-weight: 500;*/
@@ -51,7 +54,6 @@ body {
 .btn-success.active {
   background-color: #d2b337 \9;
 }
-
 
 .circle {
   background-image: -moz-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
