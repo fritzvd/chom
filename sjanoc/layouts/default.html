@@ -40,8 +40,15 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="static/bootstrap/js/jquery.js"></script>
+    <script src="static/js/jquery.js"></script>
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function(){
+            $('#launch').modal('show');
+        });
+    </script>
+    
         <!-- Piwik --> 
     <script type="text/javascript">
     var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.technokrat.nl/" : "http://analytics.technokrat.nl/");
