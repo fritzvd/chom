@@ -1,8 +1,5 @@
 body {
-  background: #ececec; /*url('../img/bg_logo.png');*/
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #ececec;
 /*  padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
 */  font-family: "Helvetica Neue", Helvetica, sans-serif;
   /*font-weight: 500;*/
@@ -10,10 +7,7 @@ body {
 }
 
 .logo{
-  background: url('../img/losdemos.gif');
-  background-size: auto 100%;
-  background-position: right top;
-  background-repeat: no-repeat;
+  text-align: center;
 
 }
 
