@@ -1,10 +1,57 @@
 body {
-  background: url('../img/cardboard_flat_dark.png');
+  background: #ececec;
 /*  padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
 */  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 500;
-  color: #cdcdcd;
+  /*font-weight: 500;*/
+  color: #3c3c3c;
 }
+
+.logo{
+  background: url('../img/losdemos.gif');
+  background-size: auto 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+
+}
+
+.btn-succes{
+  background-color: #ffd42a;
+}
+
+
+.btn-success {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d2b337;
+  *background-color: #ffd42a;
+  background-image: -moz-linear-gradient(top, #ffd42a, #d2b337);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffd42a), to(#d2b337));
+  background-image: -webkit-linear-gradient(top, #ffd42a, #d2b337);
+  background-image: -o-linear-gradient(top, #ffd42a, #d2b337);
+  background-image: linear-gradient(to bottom, #ffd42a, #d2b337);
+  background-repeat: repeat-x;
+  border-color: #ffd42a #ffd42a #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffd42a', endColorstr='#ffd2b337', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  color: #ffffff;
+  background-color: #d2b337;
+  *background-color: #d2b337;
+}
+
+.btn-success:active,
+.btn-success.active {
+  background-color: #d2b337 \9;
+}
+
 
 .circle {
   background-image: -moz-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
@@ -83,12 +130,28 @@ h2{
   text-transform: lowercase;
 }
 
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: left;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
 
-
-
-background-image: url(IMAGE_URL), -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Saf4+, Chrome */
-background-image: url(IMAGE_URL), -webkit-linear-gradient(top, #444444, #999999); /* Chrome 10+, Saf5.1+ */
-background-image: url(IMAGE_URL),    -moz-linear-gradient(top, #444444, #999999); /* FF3.6+ */
-background-image: url(IMAGE_URL),     -ms-linear-gradient(top, #444444, #999999); /* IE10 */
-background-image: url(IMAGE_URL),      -o-linear-gradient(top, #444444, #999999); /* Opera 11.10+ */
-background-image: url(IMAGE_URL),         linear-gradient(top, #444444, #999999); /* W3C */
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
