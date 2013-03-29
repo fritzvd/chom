@@ -14,6 +14,9 @@ body {
   max-width: 60%;
 }
 
+.past{
+  text-decoration: line-through;
+}
 
 .btn-success {
   color: #ffffff;
