@@ -1,0 +1,153 @@
+body {
+  background: rgb(231, 76, 60);
+/*  padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
+*/  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-weight: 500;*/
+  overflow-x: hidden;
+
+}
+
+.wetasphalt{
+  background: rgb(52, 73, 94);
+}
+
+.alizarin{
+  background: rgb(231, 76, 60);
+}
+
+.sunflower{
+  background: rgb(241, 196, 15);
+}
+
+.emerland{
+  background: rgb(46, 204, 113);
+}
+
+.midnight{
+  background: rgb(44, 62, 80);
+}
+
+.pomegranate{
+  background: rgb(192, 57, 43);
+}
+
+.orange{
+  background: rgb(243, 156, 18);
+}
+
+.nephritis{
+  background: rgb(39, 174, 96);
+}
+
+.silver{
+  background: rgb(189, 195, 199);
+}
+
+.cloud{
+  background: rgb(236, 240, 241);
+}
+
+.row-fluid .span3 {
+    width: 25%;
+    margin-left:0;
+}
+
+.below{
+    padding: 5% 10% 5% 10%; 
+}
+
+.container{
+  width: 100%;
+}
+
+.filler{
+  padding-top: 50px ;
+  height: 150px;
+}
+
+header .header{
+    color: white;
+}
+
+.right{
+  margin-right: 10px;
+  text-align: right;
+}
+
+h2{
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size:3em;
+  color:white;
+}
+
+h1.rotate{
+  color:white;
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  /*text-shadow: 5px 5px 0 #222;*/
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  line-height: 30px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform:    rotate(-7deg); 
+  -ms-transform:     rotate(-7deg); 
+  -o-transform:      rotate(-7deg);
+  /* Rotate from top left corner (not default) */
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin:    120px 0;
+  -ms-transform-origin:     0 0;
+  -o-transform-origin:      0 0;
+}
+
+@media only screen and (max-device-width:768px) {
+       /* default iPad screens */
+        font-size: 2em;
+}
+
+.face img{
+  width: 100%;
+}
+
+header a{
+    text-shadow: 0 1px 0 rgba(255,255,255,.1);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+header a:hover{
+ text-shadow: 0 0 40px rgba(255,255,255,.25);
+ text-decoration: none;
+}
+
+.social{
+  margin-left: 1em;
+}
+
+.social-btn {
+  color: rgb(44, 62, 80);
+  background-color: rgb(189, 195, 199);
+  border-color: rgb(189, 195, 199);
+  padding: 0.5em;
+  font-size: 2em;
+}
+
+.social-btn:hover,
+.social-btn:focus,
+.social-btn:active {
+  background-color: rgb(127, 140, 141);
+  border-color: rgb(127, 140, 141);
+  text-decoration: none;
+}
+
+a.social-btn:hover,
+a.social-btn:focus,
+a.social-btn:active,{
+  text-decoration: none;
+  color: rgb(236, 240, 241);
+}
