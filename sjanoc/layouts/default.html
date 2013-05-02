@@ -3,19 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Cheeses of Mexico - <%= @item[:title] %></title>
-
+    <link href=""
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no, minimum-scale = 1.0, maximum-scale = 1.0">    <meta name="author" content="@fritzvd"> 
     <meta name="description" content="The Cheeses of Mexico are a folk-groove band from The Netherlands. Most of their songs are if not already soon to be hits. You can listen to them for free on Rdio and Spotify."> 
     <meta name="keywords" content="cheeses of mexico, music, folk, muziek, singer songwriter, utrecht, amsterdam, the netherlands, nederland, indie music, indie folk, folk groove "> 
 
-    <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/bootstrap/css/font-awesome.min.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+    <![endif]-->
     <style>
-    @import url(http://fonts.googleapis.com/css?family=Lato:700italic,900italic);
+    @import url(http://fonts.googleapis.com/css?family=Lato:900,900italic);
     </style>
-    <link href="static/css/style.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="<%= @item[:extrastyle] %>" rel="stylesheet">
     <link rel="shortcut icon" href="static/favicon.png" type="image/png">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
