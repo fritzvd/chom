@@ -72,9 +72,9 @@ body {
   width: 100%;
 }
 
-.filler{
-  padding-top: 50px ;
-  height: 150px;
+.filler {
+  height: 175px;
+  padding-top: 50px;
 }
 
 header .header{
@@ -82,8 +82,12 @@ header .header{
 }
 
 .right{
-  margin-right: 10px;
+  margin-right: 1.2em;
   text-align: right;
+}
+
+.loves{
+  margin-top: 1.2em;
 }
 
 h2{
@@ -133,25 +137,31 @@ header a{
   -webkit-transition: all .2s ease-in-out;
      -moz-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+    text-decoration: none;
 }
 
-header a:hover{
- text-shadow: 0 0 40px rgba(255,255,255,.25);
+
+header a:hover,
+header a:focus,
+header a:active{
+ text-shadow: 0 0 5px rgba(255,255,255,.25);
  text-decoration: none;
+ color: rgb(189, 195, 199);
 }
 
-.social{
-  margin-left: 1em;
+.social {
+  margin-top: 5em;
+  margin-left: -2em;
 }
 
 .social-btn {
-  color: rgb(44, 62, 80);
-  background-color: rgb(189, 195, 199);
-  border-color: rgb(189, 195, 199);
-  padding: 0.5em;
-  font-size: 2em;
+  color: white;
+  font-size: 3em;
 }
 
+
+
+/*
 .social-btn:hover,
 .social-btn:focus,
 .social-btn:active {
@@ -165,4 +175,4 @@ a.social-btn:focus,
 a.social-btn:active,{
   text-decoration: none;
   color: rgb(236, 240, 241);
-}
+}*/
