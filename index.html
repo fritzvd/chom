@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" ng-app="project">
   <head>
     <meta charset="utf-8">
     <title>Cheeses of Mexico - Home</title>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
     <![endif]-->
     <style>
-    @import url(http://fonts.googleapis.com/css?family=Lato:900,900italic);
+    /*@import url(http://fonts.googleapis.com/css?family=Lato:900,900italic);*/
     </style>
     <link href="/static/css/style.css" rel="stylesheet">
     <link href="" rel="stylesheet">
@@ -34,9 +34,11 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="static/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="static/ico/favicon.png">
+
   </head>
   <body>
-
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
     <div class="container">
       <div class="row-fluid">
       <div class="span12 logo">
@@ -104,19 +106,8 @@
 </div>
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="static/js/jquery.js"></script>
-    <script src="static/bootstrap/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-      // $(window).load(function(){
-      //       $('#launch').modal('show');
-      //   });
-    </script>
     
-        <!-- Piwik --> 
+        <!-- Piwik 
     <script type="text/javascript">
     var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.technokrat.nl/" : "http://analytics.technokrat.nl/");
     document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
@@ -127,7 +118,7 @@
     piwikTracker.enableLinkTracking();
     } catch( err ) {}
     </script><noscript><p><img src="http://analytics.technokrat.nl/piwik.php?idsite=4" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Tag -->
+    End Piwik Tracking Tag -->
 
   </body>
 </html>
