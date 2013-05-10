@@ -83,12 +83,13 @@ body {
 .row-fluid .span6 {
   width: 50%;
 }
+
 .below{
     padding: 5% 10% 5% 10%; 
 }
 
 .media-column{
-  padding: 5% 0 5% 0;
+  padding: 0% 0 10% 0;
 }
 
 .container{
@@ -98,6 +99,11 @@ body {
 .filler {
   height: 175px;
   padding-top: 50px;
+}
+
+.spacer{
+  padding: 10%;
+  width: 100%;
 }
 
 header .header{
@@ -111,6 +117,10 @@ header .header{
 
 .loves{
   margin-top: 1.2em;
+}
+
+#images img{
+  width: 100%;
 }
 
 h2{
