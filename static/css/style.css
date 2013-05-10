@@ -71,18 +71,54 @@ body {
   background: rgb(236, 240, 241);
 }
 
-.row-fluid .span3 {
-    width: 25%;
-    margin-left:0;
+@media (min-width: 1200px){
+
+    .row-fluid .span3 {
+      width: 25%;
+      margin-left:0;
+  }
+
+  .row-fluid .offset3:first-child {
+      margin-left: 25%;
+  }
+
+  .row-fluid .span6 {
+    width: 50%;
+  }
+
+}
+ 
+@media screen and (min-width: 992px) {
+    .row-fluid .span3 {
+      width: 25%;
+      margin-left:0;
+  }
+
+  .row-fluid .offset3:first-child {
+      margin-left: 25%;
+  }
+
+  .row-fluid .span6 {
+    width: 50%;
+  }
 }
 
-.row-fluid .offset3:first-child {
-    margin-left: 25%;
-}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px)  { 
+  .row-fluid .span3 {
+      width: 25%;
+      margin-left:0;
+  }
 
-.row-fluid .span6 {
-  width: 50%;
-}
+  .row-fluid .offset3:first-child {
+      margin-left: 25%;
+  }
+
+  .row-fluid .span6 {
+    width: 50%;
+  }
+
+ }
 
 .below, .about-below{
     padding: 5% 10% 5% 10%; 
@@ -167,6 +203,7 @@ h1.rotate{
         font-size: 2em;
 }
 
+
 .face img,
 .bottom img{
   width: 100%;
@@ -187,6 +224,12 @@ header a:active{
  text-shadow: 0 0 5px rgba(255,255,255,.25);
  text-decoration: none;
  color: rgb(189, 195, 199);
+}
+
+a:hover,
+a:focus,
+a:active{
+ text-decoration: none;
 }
 
 .social {
