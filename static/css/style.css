@@ -84,21 +84,22 @@ body {
   width: 50%;
 }
 
-.below{
+.below, .about-below{
     padding: 5% 10% 5% 10%; 
 }
 
 .media-column{
-  padding: 0% 0 10% 0;
+  padding: 0;
 }
 
 .container{
   width: 100%;
 }
 
+
 .filler {
   height: 145px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .spacer{
@@ -116,7 +117,7 @@ header .header{
 }
 
 .loves{
-  margin-top: 2.5em;
+  margin-top: 1.5em;
 }
 
 #images img{
@@ -166,7 +167,8 @@ h1.rotate{
         font-size: 2em;
 }
 
-.face img{
+.face img,
+.bottom img{
   width: 100%;
 }
 
@@ -188,7 +190,7 @@ header a:active{
 }
 
 .social {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .social-btn {
