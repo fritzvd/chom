@@ -99,7 +99,7 @@ body {
 
 .filler {
   height: 145px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .spacer{
@@ -117,7 +117,7 @@ header .header{
 }
 
 .loves{
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 
 #images img{
@@ -190,7 +190,7 @@ header a:active{
 }
 
 .social {
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
 .social-btn {
