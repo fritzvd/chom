@@ -1,145 +1,155 @@
+@font-face {
+    font-family: 'BitstreamVeraSansBoldOblique';
+    src: url('/static/fonts/Vera-Bold-Italic-webfont.eot');
+    src: url('/static/fonts/Vera-Bold-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Vera-Bold-Italic-webfont.woff') format('woff'),
+         url('/static/fonts/Vera-Bold-Italic-webfont.ttf') format('truetype'),
+         url('/static/fonts/Vera-Bold-Italic-webfont.svg#BitstreamVeraSansBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitstreamVeraSansBold';
+    src: url('/static/fonts/Vera-Bold-webfont.eot');
+    src: url('/static/fonts/Vera-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Vera-Bold-webfont.woff') format('woff'),
+         url('/static/fonts/Vera-Bold-webfont.ttf') format('truetype'),
+         url('/static/fonts/Vera-Bold-webfont.svg#BitstreamVeraSansBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-  background: #ececec;
+  background: rgb(231, 76, 60);
 /*  padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
-*/  font-family: "Helvetica Neue", Helvetica, sans-serif;
+*/  font-family: sans-serif;
   /*font-weight: 500;*/
-  color: #3c3c3c;
+  overflow-x: hidden;
+
 }
 
-.logo{
-  text-align: center;
+.wetasphalt{
+  background: rgb(52, 73, 94);
 }
 
-.logo img{
-  max-width: 60%;
+.alizarin{
+  background: rgb(231, 76, 60);
 }
 
-.past{
-  text-decoration: line-through;
+.sunflower{
+  background: rgb(241, 196, 15);
 }
 
-.btn-success {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #d2b337;
-  *background-color: #ffd42a;
-  background-image: -moz-linear-gradient(top, #ffd42a, #d2b337);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffd42a), to(#d2b337));
-  background-image: -webkit-linear-gradient(top, #ffd42a, #d2b337);
-  background-image: -o-linear-gradient(top, #ffd42a, #d2b337);
-  background-image: linear-gradient(to bottom, #ffd42a, #d2b337);
-  background-repeat: repeat-x;
-  border-color: #ffd42a #ffd42a #387038;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffd42a', endColorstr='#ffd2b337', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+.emerland{
+  background: rgb(46, 204, 113);
 }
 
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.btn-success.disabled,
-.btn-success[disabled] {
-  color: #ffffff;
-  background-color: #d2b337;
-  *background-color: #d2b337;
+.midnight{
+  background: rgb(44, 62, 80);
 }
 
-.btn-success:active,
-.btn-success.active {
-  background-color: #d2b337 \9;
+.pomegranate{
+  background: rgb(192, 57, 43);
 }
 
-
-.btn-spotify{
-  background-color: #51a351;
+.orange{
+  background: rgb(243, 156, 18);
 }
 
-.btn-spotify {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb75b;
-  *background-color: #51a351;
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
-  background-repeat: repeat-x;
-  border-color: #51a351 #51a351 #387038;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+.nephritis{
+  background: rgb(39, 174, 96);
 }
 
-.btn-spotify:hover,
-.btn-spotify:focus,
-.btn-spotify:active,
-.btn-spotify.active,
-.btn-spotify.disabled,
-.btn-spotify[disabled] {
-  color: #ffffff;
-  background-color: #51a351;
-  *background-color: #499249;
+.silver{
+  background: rgb(189, 195, 199);
 }
 
-.btn-spotify:active,
-.btn-spotify.active {
-  background-color: #408140 \9;
+.cloud{
+  background: rgb(236, 240, 241);
 }
 
-.circle {
-  background-image: -moz-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
-  background-image: -webkit-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
-  background-image: -o-linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
-  background-image: linear-gradient(top, rgba(255, 246, 213, 0.85), rgba(255, 246, 213,0.85)), url('../img/cheese_texture.jpg');
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  margin-left:80px;
-  margin-top:100px;
+.row-fluid .span3 {
+    width: 25%;
+    margin-left:0;
 }
 
-.circle img{
-  margin-top: 50px;
-  margin-left: -10px;
-  max-width: 110%;
+.row-fluid .offset3:first-child {
+    margin-left: 25%;
 }
 
-.large h1{
-  font-size: 6em;
-  font-family: Lato, sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  text-shadow: 5px 5px 0 #222;
+.row-fluid .span6 {
+  width: 50%;
+}
+
+.below{
+    padding: 5% 10% 5% 10%; 
+}
+
+.media-column{
+  padding: 0% 0 10% 0;
+}
+
+.container{
+  width: 100%;
+}
+
+.filler {
+  height: 145px;
+  padding-top: 20px;
+}
+
+.spacer{
+  padding: 10%;
+  width: 100%;
+}
+
+header .header{
+    color: rgb(236, 240, 241);
+}
+
+.right{
+  margin-right: 1.2em;
+  text-align: right;
+}
+
+.loves{
+  margin-top: 2.5em;
+}
+
+#images img{
+  width: 50%;
+  z-index: 1;
+}
+
+.instagram{
+
+}
+
+h2{
+  font-family: BitstreamVeraSansBold, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size:3em;
+  color:white;
+}
+
+h1{
+  color:white;
+  font-size: 3em;
+  font-family: BitstreamVeraSansBoldOblique;
+  font-weight: 500;
+  /*font-style: italic;*/
+  /*text-shadow: 5px 5px 0 #222;*/
   text-transform: uppercase;
 }
 
-.cheeses h1{
-  color: rgba(255, 128, 128, 1);
-  letter-spacing: 0.2em;
-  padding-top: 100px;
-  /*margin-left: -100px;*/
-}
-
-.mexico h1{
-  color: rgba(135, 222, 205, 1);
-  letter-spacing: 0.3em;
-}
-
-.of{
-  font-family: serif;
-  color: #333;
-  font-size: 4em;
-  padding-left: 50px;
-  margin-top: -30px;
-}
-
-.rotate{
-  /*position: absolute;*/
-  margin-left: -20px;
-  margin-bottom: 10px;
+h1.rotate{
+  margin-bottom: 0px;
+  line-height: 30px;
   -webkit-transform: rotate(-7deg); 
   -moz-transform:    rotate(-7deg); 
   -ms-transform:     rotate(-7deg); 
@@ -151,44 +161,47 @@ body {
   -o-transform-origin:      0 0;
 }
 
-.social{
-  text-align: center;
-  margin-top: 1em;
+@media only screen and (max-device-width:768px) {
+       /* default iPad screens */
+        font-size: 2em;
 }
 
-.social img{
-  background: #212121;
-  padding: 5px;
-  border-radius: 5px;
-  margin-bottom: 0.5em;
+.face img{
+  width: 100%;
 }
 
-h2{
-  text-transform: lowercase;
+header a{
+    text-shadow: 0 1px 0 rgba(255,255,255,.1);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+    text-decoration: none;
 }
 
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 80px 0;
-        text-align: left;
-      }
-      .jumbotron h1 {
-        font-size: 100px;
-        line-height: 1;
-      }
-      .jumbotron .lead {
-        font-size: 24px;
-        line-height: 1.25;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
 
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
+header a:hover,
+header a:focus,
+header a:active{
+ text-shadow: 0 0 5px rgba(255,255,255,.25);
+ text-decoration: none;
+ color: rgb(189, 195, 199);
+}
+
+.social {
+  margin-top: 80px;
+  margin-left: -2em;
+}
+
+.social-btn {
+  color: white;
+  font-size: 3em;
+  z-index: 100;
+}
+
+a:hover .navvy,
+a:focus .navvy,
+a:active .navvy{
+ text-shadow: 0 0 40px rgba(255,255,255,.25);
+ text-decoration: none;
+ color: rgb(189, 195, 199);
+}

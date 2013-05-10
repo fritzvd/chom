@@ -4,7 +4,7 @@
       dataType: 'jsonp', 
       method: 'GET'}).done(function(response){
         $.each(response.data, function(){
-          $('#images').append('<img src="'+ this.images.low_resolution.url +'" />')
+          $('#images').append('<a href="/news/"><img class="instagram" src="'+ this.images.low_resolution.url +'" /></a>')
 
         })
       })
