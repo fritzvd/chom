@@ -249,3 +249,27 @@ a:active .navvy{
  text-decoration: none;
  color: rgb(189, 195, 199);
 }
+
+#comingup a {
+  font-weight: bold;
+}
+
+#past a {
+  font-style: strikethrough;
+}
+
+#comingup li,
+#past li {
+  list-style: none;
+  list-style-position: inside;
+}
+
+.gigs h4 {
+  padding-left: 1em;
+}
+
+.gigs {
+  background: url('../img/songkick.png') no-repeat;
+  background-position: 95% 95%;
+  padding-bottom: 3em;
+}
