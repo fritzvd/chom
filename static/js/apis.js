@@ -21,7 +21,7 @@ $.ajax({
 
 $.ajax({
   url: "http://api.songkick.com/api/3.0/artists/6838049/calendar.json?apikey=sSxFP4FVJ3wcxiBD", 
-  dataType: 'json', 
+  dataType: 'jsonp', 
   method: 'GET'}).done(function(response){
       console.log(Object.keys(response.resultsPage.results).length)
       if (Object.keys(response.resultsPage.results).length < 1) {
@@ -36,7 +36,7 @@ $.ajax({
 
 $.ajax({
   url: "http://api.songkick.com/api/3.0/artists/6838049/gigography.json?apikey=sSxFP4FVJ3wcxiBD&order=desc", 
-  dataType: 'json', 
+  dataType: 'jsonp', 
   method: 'GET'}).done(function(response){
     $.each(response.resultsPage.results.event, function(count){
       if (count < 8){
