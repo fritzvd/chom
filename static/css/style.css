@@ -23,13 +23,15 @@
 }
 
 body {
-  background: rgb(231, 76, 60);
+  /*background: rgb(231, 76, 60);*/
 /*  padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
 */  font-family: sans-serif;
   /*font-weight: 500;*/
   overflow-x: hidden;
 
 }
+
+
 
 .wetasphalt{
   background: rgb(52, 73, 94);
@@ -147,6 +149,16 @@ header .header{
     color: rgb(236, 240, 241);
 }
 
+.navbar-inner,
+.navbar-fixed-bottom {
+    bottom: 0;
+    background: white;
+    border:0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .right{
   margin-right: 1.2em;
   text-align: right;
@@ -172,6 +184,24 @@ h2{
   font-weight: 500;
   font-size:3em;
   color:white;
+}
+
+header > h2 {
+    color: #104dfc;
+}
+
+article.bee {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+}
+
+img.bee {
+    padding: 0 auto;
+    max-height: 100%;
+    position: relative;
 }
 
 h1{
