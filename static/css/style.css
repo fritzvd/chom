@@ -177,30 +177,70 @@ header .header{
 
 }
 
-h2{
-  font-family: BitstreamVeraSansBold, sans-serif;
+h2, h3{
+  font-family: 'Arial Black', sans-serif;
   font-style: normal;
   text-transform: uppercase;
   font-weight: 500;
-  font-size:3em;
-  color:white;
+  color: #03907e;
 }
+
+a:focus,
+a:hover,
+a:active {
+    color: #00217e;
+}
+
+a {
+    color: #104dfc;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 { font-size: 1.5em; }
 
 header > h2 {
     color: #104dfc;
+}
+
+.textbox {
+    position: absolute;
+    width: 40%;
+    padding: 1em;
+    left: 30%;
+    text-align: left;
+    background: rgba(255,255,255,0.9);
+}
+
+#get-tickets {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    font-size: 30px;
+}
+
+iframe {
+    position:relative;
+    height: 300px;
+    width: 100%;
 }
 
 article.bee {
     height: 100%;
     width: 100%;
     position: absolute;
-    overflow: hidden;
     text-align: center;
+    background: url('/static/img/bee2.png') no-repeat center top 30px;
+    background-size: auto 100%;
 }
 
-img.bee {
-    padding: 0 auto;
-    max-height: 100%;
+.rtl {
+    direction: rtl;
+}
+
+.article-inner {
     position: relative;
 }
 
