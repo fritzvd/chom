@@ -222,7 +222,7 @@ header > h2 {
     font-size: 30px;
 }
 
-iframe {
+iframe.youtube {
     position:relative;
     height: 300px;
     width: 100%;
