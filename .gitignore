@@ -1,2 +1,3 @@
-sjanog/tmp/*
+sjanoc/tmp/*
 tmp/
+.DS_Store
