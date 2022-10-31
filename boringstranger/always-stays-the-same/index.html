@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="New song out by the amazing Boring Stranger">
+
+    <meta property="og:title" content="Boring Stranger - Always Stays The Same" />
+    <meta property="og:type" content="music:song" />
+    <meta property="og:description" content="New song out by the amazing Boring Stranger">
+    <meta property="og:url" content="https://cheesesofmexico.com/boringstranger/gone">
+
+    <meta property="og:image" content="https://cheesesofmexico.com/boringstranger/gone/cover_400.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+
+    <title>Boring Stranger - Gone (Live)</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+
+    <script>
+        var data = [
+            {
+                "serviceName": "spotify",
+                "url": "https://open.spotify.com/track/56p6fpu6NALhVQO6zhkLdH"
+            },
+            {
+                "serviceName": "apple-music",
+                "url": "https://music.apple.com/nl/album/always-stays-the-same-single/1651026299?l=en"
+            },
+            {
+                "serviceName": "tidal",
+                "url": "https://tidal.com/browse/album/255557954"
+            },
+            {
+                "serviceName": "deezer",
+                "url": "https://deezer.page.link/EsRGpzcdcydAHAcH6"
+            },
+            {
+                "serviceName": "amazon-music",
+                "url": "https://www.amazon.com/music/player/albums/B0BK77PXP6"
+            }             
+        ]
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            /* height: 100vh; */
+            font-family: Avenir, sans-serif;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background: rgb(0,0,0);
+        }
+
+        header, main, footer {
+            width: 500px;
+        }
+
+        @media (max-width: 800px) {
+            header, main, footer {
+                width: 100vw;
+            }
+
+            header > img {
+                width: 100vw;
+            }
+        }
+
+        header {
+            background: rgba(30, 30, 30, 0.9);
+            color: white;
+        }
+
+        h1 {
+            margin-left: 1rem;
+            padding: 1rem;
+            font-weight: 300;
+        }
+
+        img.bg {
+            position: absolute;
+            left: -10%;
+            top: -10%;
+            z-index: -1;
+            width: 150%;
+            height: 150%;
+            -webkit-filter: blur(50px); /* Safari 6.0 - 9.0 */
+            filter: blur(50px);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul > li {
+            padding: 1em;
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        img.platform {
+            margin-left: 1rem;
+            height: 3rem;
+            width: auto;
+        }
+
+        .music-service {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        a, a:focus, a:visited {
+            color: black;
+            text-decoration: none;;
+        }
+
+        .btn {
+            background: whitesmoke;
+            border-radius: 10px;
+            border: 1px dashed rgba(30, 30, 30, 0.9);
+            padding: 1rem;
+            appearance: none;
+        }
+
+        .btn:hover {
+            background:lightskyblue;
+            /* box-shadow: inset 1px 1px 1px black; */
+        }
+
+        footer {
+            font-size: 0.7rem;
+            background:blanchedalmond;
+        }
+
+        footer > p {
+            margin: .3rem;
+            padding: 0 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <img class="bg" src="cover.png" alt="Cover Image for Always Stays The Same Single">
+    
+    <header>
+        <img src="cover.png">
+        <h1>Boring Stranger - Always Stays The Same</h1>
+    </header>
+    <main>
+        <ul id="platforms">
+            
+        </ul>
+    </main>
+    <footer>
+        <p>By using this service you're not allowing any cookies.</p>
+        <p>I'm not collecting any data</p>
+    
+    </footer>
+
+    <script>
+        function capitalize(string) {
+            console.log(string)
+            if (string.length > 1) {       
+                return "".concat(string[0].toUpperCase(), string.slice[1, string.length]);
+            } else {
+                return string.toUpperCase();
+            }
+        }
+
+        function platformElement (platform) {
+            const li = document.createElement("li");
+            li.innerHTML = `
+                <a class="music-service" href="${platform.url}" target="_blank">
+                    <img class="platform" src="../img/${platform.serviceName}.png" alt="${capitalize(platform.serviceName)} Logo">
+                    <span class="btn">Play</span>
+                </a>`;
+            return li;
+        }
+
+        const platforms = document.querySelector('#platforms');
+        for (let platform of data) {
+            platforms.appendChild(platformElement(platform));
+        }
+    </script>
+    
+</body>
+</html>
