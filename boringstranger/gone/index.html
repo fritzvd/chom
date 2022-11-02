@@ -51,6 +51,7 @@
         }
 
         body {
+            overflow-x: hidden;
             width: 100vw;
             /* height: 100vh; */
             font-family: Avenir, sans-serif;
@@ -65,15 +66,6 @@
             width: 500px;
         }
 
-        @media (max-width: 800px) {
-            header, main, footer {
-                width: 100vw;
-            }
-
-            header > img {
-                width: 100vw;
-            }
-        }
 
         header {
             background: rgba(30, 30, 30, 0.9);
@@ -84,6 +76,7 @@
             margin-left: 1rem;
             padding: 1rem;
             font-weight: 300;
+            font-size: 1rem;
         }
 
         img.bg {
@@ -152,6 +145,19 @@
             padding: 0 1rem;
         }
 
+
+        @media (max-width: 800px) {
+            header, main, footer {
+                width: 100vw;
+            }
+
+            header > img {
+                width: 100vw;
+            }
+            img.bg {
+               display: none; 
+            }
+        }
     </style>
 </head>
 <body>
