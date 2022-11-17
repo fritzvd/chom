@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'BitstreamVeraSansBoldOblique';
-    src: url('/static/fonts/Vera-Bold-Italic-webfont.eot');
-    src: url('/static/fonts/Vera-Bold-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/Vera-Bold-Italic-webfont.woff') format('woff'),
-         url('/static/fonts/Vera-Bold-Italic-webfont.ttf') format('truetype'),
-         url('/static/fonts/Vera-Bold-Italic-webfont.svg#BitstreamVeraSansBoldOblique') format('svg');
+    src: url('static/fonts/Vera-Bold-Italic-webfont.eot');
+    src: url('static/fonts/Vera-Bold-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('static/fonts/Vera-Bold-Italic-webfont.woff') format('woff'),
+         url('static/fonts/Vera-Bold-Italic-webfont.ttf') format('truetype'),
+         url('static/fonts/Vera-Bold-Italic-webfont.svg#BitstreamVeraSansBoldOblique') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'BitstreamVeraSansBold';
-    src: url('/static/fonts/Vera-Bold-webfont.eot');
-    src: url('/static/fonts/Vera-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/Vera-Bold-webfont.woff') format('woff'),
-         url('/static/fonts/Vera-Bold-webfont.ttf') format('truetype'),
-         url('/static/fonts/Vera-Bold-webfont.svg#BitstreamVeraSansBoldOblique') format('svg');
+    src: url('static/fonts/Vera-Bold-webfont.eot');
+    src: url('static/fonts/Vera-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('static/fonts/Vera-Bold-webfont.woff') format('woff'),
+         url('static/fonts/Vera-Bold-webfont.ttf') format('truetype'),
+         url('static/fonts/Vera-Bold-webfont.svg#BitstreamVeraSansBoldOblique') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -233,7 +233,7 @@ article.bee {
     width: 100%;
     position: absolute;
     text-align: center;
-    background: url('/static/img/bee2.png') no-repeat center top 30px;
+    background: url('../img/bee2.png') no-repeat center top 30px;
     background-size: auto 100%;
 }
 
