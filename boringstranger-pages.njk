@@ -1,0 +1,201 @@
+---
+pagination:
+    data: boringstranger
+    size: 1
+    alias: album
+permalink: "boringstranger/{{ album.name }}/index.html"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Song page for {{ album.title }}">
+
+    <meta property="og:title" content="{{ album.title }}" />
+    <meta property="og:type" content="music:song" />
+    <meta property="og:description" content="Song page for {{ album.title }}">
+    <meta property="og:url" content="{{ album.url }}">
+
+    <meta property="og:image" content="{{ album.cover_400 }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+
+    <title>{{ album.title }}</title>
+    <link rel="shortcut icon" href="/static/img/favicon.png" type="image/png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+            width: 100vw;
+            /* height: 100vh; */
+            font-family: Avenir, sans-serif;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background: rgb(0,0,0);
+        }
+
+        header, main, footer {
+            width: 500px;
+        }
+
+        header > img {
+            width: 100%;
+        }
+        
+        header {
+            background: rgba(30, 30, 30, 0.9);
+            color: white;
+        }
+
+        h1 {
+            margin-left: 1rem;
+            padding: 1rem;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        img.bg {
+            position: absolute;
+            left: -10%;
+            top: -10%;
+            z-index: -1;
+            width: 150%;
+            height: 150%;
+            -webkit-filter: blur(50px); /* Safari 6.0 - 9.0 */
+            filter: blur(50px);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul > li {
+            padding: 1em;
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        img.platform {
+            margin-left: 1rem;
+            height: 3rem;
+            width: auto;
+        }
+
+        .music-service {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        a, a:focus, a:visited {
+            color: black;
+            text-decoration: none;;
+        }
+
+        .btn {
+            background: whitesmoke;
+            border-radius: 10px;
+            border: 1px dashed rgba(30, 30, 30, 0.9);
+            padding: 1rem;
+            appearance: none;
+        }
+
+        .btn:hover {
+            background:lightskyblue;
+            /* box-shadow: inset 1px 1px 1px black; */
+        }
+
+        footer {
+            font-size: 0.7rem;
+            background:blanchedalmond;
+        }
+
+        footer > p {
+            margin: .3rem;
+            padding: 0 1rem;
+        }
+
+
+        @media (max-width: 800px) {
+            header, main, footer {
+                width: 100vw;
+            }
+
+            header > img {
+                width: 100vw;
+            }
+            img.bg {
+               display: none; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="bg" src="/static/img/covers/{{ album.name }}.png" alt="Cover Image for {{ album.title }}">
+    
+    <header>
+        <img src="/static/img/covers/{{ album.name }}.png">
+        <h1>{{ album.title }}</h1>
+    </header>
+    <main>
+        <ul id="platforms">
+            {% for service in album.services %}
+                <li>
+                    <a class="music-service" href="{{ service.url }}">
+                        <img class="platform" src="/static/img/vendors/{{ service.serviceName }}.png" alt="{{ platform.serviceName }} Logo">
+                        <span class="btn">Play</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <p>By using this service you're not allowing any cookies.</p>
+        <p>I'm not collecting any data</p>
+    
+    </footer>
+
+    <script>
+        function capitalize(string) {
+            console.log(string)
+            if (string.length > 1) {       
+                return "".concat(string[0].toUpperCase(), string.slice[1, string.length]);
+            } else {
+                return string.toUpperCase();
+            }
+        }
+
+        function platformElement (platform) {
+            const li = document.createElement("li");
+            li.innerHTML = `
+                <a class="music-service" href="${platform.url}">
+                    <img class="platform" src="/static/img/vendors/${platform.serviceName}.png" alt="${capitalize(platform.serviceName)} Logo">
+                    <span class="btn">Play</span>
+                </a>`;
+            return li;
+        }
+
+        // const platforms = document.querySelector('#platforms');
+        // for (let platform of data) {
+        //     platforms.appendChild(platformElement(platform));
+        // }
+    </script>
+    
+</body>
+</html>

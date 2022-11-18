@@ -1,0 +1,68 @@
+[{
+        "name": "always-stays-the-same",
+        "title": "Boring Stranger - Always Stays The Same",
+        "cover_400": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same_400.png",
+        "cover": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same.png",
+        "url": "https://cheesesofmexico.com/boringstranger/always-stays-the-same",
+        "services": [
+            {
+                "serviceName": "spotify",
+                "url": "https://open.spotify.com/track/56p6fpu6NALhVQO6zhkLdH"
+            },
+            {
+                "serviceName": "apple-music",
+                "url": "https://music.apple.com/nl/album/always-stays-the-same-single/1651026299?l=en"
+            },
+            {
+                "serviceName": "tidal",
+                "url": "https://tidal.com/browse/album/255557954"
+            },
+            {
+                "serviceName": "bandcamp",
+                "url": "https://cheesesofmexico.bandcamp.com/track/always-stays-the-same"
+            },
+            {
+                "serviceName": "deezer",
+                "url": "https://deezer.page.link/EsRGpzcdcydAHAcH6"
+            },
+            {
+                "serviceName": "amazon-music",
+                "url": "https://www.amazon.com/music/player/albums/B0BK77PXP6"
+            }             
+        ]
+    },
+    {
+        "name": "gone",
+        "title": "Boring Stranger - Gone (Live)",
+        "cover_400": "https://cheesesofmexico.com/static/img/covers/gone_400.png",
+        "cover": "https://cheesesofmexico.com/static/img/covers/gone.png",
+        "url": "https://cheesesofmexico.com/boringstranger/gone",
+        "services": [
+            
+            {
+                "serviceName": "spotify",
+                "url": "https://open.spotify.com/track/3Zpi2KUb4ONiEy9Ot0yIvq?si=b1acbdd123da4f03"
+            },
+            {
+                "serviceName": "apple-music",
+                "url": "https://music.apple.com/nl/album/gone-live-single/1651521335?l=en"
+            },
+            {
+                "serviceName": "tidal",
+                "url": "https://tidal.com/browse/album/256288939"
+            },
+            {
+                "serviceName": "bandcamp",
+                "url": "https://cheesesofmexico.bandcamp.com/track/gone-live"
+            },
+            {
+                "serviceName": "deezer",
+                "url": "https://deezer.page.link/kaZXJ5XzB7QBGAVD7"
+            },
+            {
+                "serviceName": "amazon-music",
+                "url": "https://amazon.com/music/player/albums/B0BKHCFD6V"
+            }             
+        ]
+    }
+]
