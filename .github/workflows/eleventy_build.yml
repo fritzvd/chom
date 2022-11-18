@@ -1,4 +1,4 @@
-name: Eleventy Build
+name: Eleventy build
 on: [push]
 
 jobs:
@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Build
+      - name: Builder
         uses: TartanLlama/actions-eleventy@master
       - run: cp -r static/* _site/static/
       - name: Deploy
