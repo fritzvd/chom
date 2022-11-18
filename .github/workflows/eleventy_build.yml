@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Build
         uses: TartanLlama/actions-eleventy@master
-      - run: cp -rm static/* _site/static/
+      - run: cp -r static/* _site/static/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
