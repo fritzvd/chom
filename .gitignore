@@ -1,3 +1,4 @@
 sjanoc/tmp/*
 tmp/
 .DS_Store
+_site/
