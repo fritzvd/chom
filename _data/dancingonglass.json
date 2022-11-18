@@ -1,0 +1,14 @@
+[{
+        "name": "the-attic-album",
+        "title": "DancingOnGlass - The Attic Album",
+        "cover_400": "https://cheesesofmexico.com/static/img/covers/the-attic-album_400.png",
+        "cover": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same.png",
+        "url": "https://cheesesofmexico.com/boringstranger/the-attic-album/",
+        "services": [
+            {
+                "serviceName": "soundcloud",
+                "url": "https://soundcloud.com/dancingonglass/sets/the-attic-ep"
+            }  
+        ]
+    }
+]
