@@ -1,7 +1,7 @@
 ---
 title: Cheeses of Mexico
 url: https://cheesesofmexico.com
-ogimage_400: https://https://cheesesofmexico.com/static/img/logo.png"
+ogimage_400: https://https://cheesesofmexico.com/static/img/logo_400.png"
 ---
 
 
@@ -23,10 +23,13 @@ ogimage_400: https://https://cheesesofmexico.com/static/img/logo.png"
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="400">
+
+    <link rel="shortcut icon" href="/static/img/favicon.png" type="image/png">
+
     <title>Cheeses of Mexico</title>
     <style>
         body {
-            font-family: Arial Black, Futura, sans-serif;
+            font-family: "Arial Black", "Futura Condensed", sans-serif;
             display: grid;
             /* flex-direction: column; */
             background: url(static/img/bee2.png);
@@ -114,6 +117,10 @@ ogimage_400: https://https://cheesesofmexico.com/static/img/logo.png"
         }
 
         @media (max-width: 850px) {
+            body {
+                overflow-x: hidden;
+            }
+            
             iframe {
                 width: 100vw;
             }

@@ -14,6 +14,10 @@
                 "url": "https://music.apple.com/nl/album/always-stays-the-same-single/1651026299?l=en"
             },
             {
+                "serviceName": "youtube",
+                "url": "https://music.youtube.com/playlist?list=OLAK5uy_lsuNd3mv4XN048x7aTHG4O4KfxWDciDXw&feature=share"
+            },
+            {
                 "serviceName": "tidal",
                 "url": "https://tidal.com/browse/album/255557954"
             },
@@ -46,6 +50,10 @@
             {
                 "serviceName": "apple-music",
                 "url": "https://music.apple.com/nl/album/gone-live-single/1651521335?l=en"
+            },
+            {
+                "serviceName": "youtube",
+                "url": "https://music.youtube.com/playlist?list=OLAK5uy_nNAHVjnO2rnr6pwA0oaPJ0hcdhZSJoZxM&feature=share"
             },
             {
                 "serviceName": "tidal",
