@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Builder
         uses: TartanLlama/actions-eleventy@master
-      - run: eleventy
+      - run: chmod -R 755 _site/
       - run: cp -r static/ _site/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
