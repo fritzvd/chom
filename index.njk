@@ -120,7 +120,7 @@ ogimage_400: https://https://cheesesofmexico.com/static/img/logo_400.png"
             body {
                 overflow-x: hidden;
             }
-            
+
             iframe {
                 width: 100vw;
             }
@@ -177,11 +177,24 @@ ogimage_400: https://https://cheesesofmexico.com/static/img/logo_400.png"
             </div>
         </section>
         <section class="boringstranger">
-            <h2>Here's a list of songs by our lead singer</h2>
+            <h2>Here's a list of releases by our lead singer</h2>
             <div class="albums">
                 {% for a in boringstranger %}
                 <article class="album">
                     <a href="/boringstranger/{{a.name}}">
+                        <img src="/static/img/covers/{{a.name}}.png" alt="Album cover for {{a.title}}">
+                        {{ a.title }}
+                    </a>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        <section class="dancingonglass">
+            <h2>Here's a list of releases by our bass player</h2>
+            <div class="albums">
+                {% for a in dancingonglass %}
+                <article class="album">
+                    <a href="/dancingonglass/{{a.name}}">
                         <img src="/static/img/covers/{{a.name}}.png" alt="Album cover for {{a.title}}">
                         {{ a.title }}
                     </a>
