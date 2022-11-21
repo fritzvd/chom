@@ -4,6 +4,7 @@
         "cover_400": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same_400.png",
         "cover": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same.png",
         "url": "https://cheesesofmexico.com/boringstranger/always-stays-the-same",
+        "alt_text": "Boring Stranger standing on stage performing in a green robe. Stage features a circus tent.",
         "services": [
             {
                 "serviceName": "spotify",
@@ -41,6 +42,7 @@
         "cover_400": "https://cheesesofmexico.com/static/img/covers/gone_400.png",
         "cover": "https://cheesesofmexico.com/static/img/covers/gone.png",
         "url": "https://cheesesofmexico.com/boringstranger/gone",
+        "alt_text": "Upside down cloud in the night time",
         "services": [
             
             {

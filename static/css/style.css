@@ -28,10 +28,29 @@ header {
   color: white;
 }
 
+.share {
+  padding: .2rem;
+  position: sticky;
+  top: 0;
+  color: white;
+  background-color: slategray;
+  text-align: center;
+}
+
+.share img {
+  max-height: 1.4rem;
+}
+
+.share a, .share a:visited {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
 h1 {
   margin-left: 1rem;
   padding: 1rem;
-  font-weight: 900;
+  font-weight: 5  00;
   font-size: 1rem;
 }
 

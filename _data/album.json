@@ -5,6 +5,7 @@
         "cover_400": "https://cheesesofmexico.com/static/img/covers/mafish-fayda_400.png",
         "cover": "https://cheesesofmexico.com/static/img/covers/mafish-fayda.png",
         "url": "https://cheesesofmexico.com/album/mafish-fayda",
+        "alt_text": "An illustration of a bee",
         "services": [   
             {
                 "serviceName": "spotify",
@@ -42,6 +43,7 @@
         "cover_400": "https://cheesesofmexico.com/static/img/covers/los-demos_400.png",
         "cover": "https://cheesesofmexico.com/static/img/covers/los-demos.png",
         "url": "https://cheesesofmexico.com/album/los-demos",
+        "alt_text": "Yellow circle with the letters: los demos",
         "services": [   
             {
                 "serviceName": "spotify",
