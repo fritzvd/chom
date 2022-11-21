@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Song page for Cheeses of Mexico - Los Demos">
 
-    <meta property="og:title" content="Cheeses of Mexico - Los Demos" />
-    <meta property="og:type" content="music:song" />
+    <meta property="og:title" content="Cheeses of Mexico - Los Demos">
+    <meta property="og:type" content="music:song">
     <meta property="og:description" content="Song page for Cheeses of Mexico - Los Demos">
     <meta property="og:url" content="https://cheesesofmexico.com/album/los-demos">
 
@@ -24,9 +24,12 @@
 </head>
 <body>
     <img class="bg" src="/static/img/covers/los-demos.png" alt="Cover Image for Cheeses of Mexico - Los Demos">
-    
     <header>
-        <img src="/static/img/covers/los-demos.png">
+        <div class="share">
+            <a href="whatsapp://send?text=https://cheesesofmexico.com/album/los-demos"><img src="/static/img/whatsapp.svg" alt="Share on Whatsapp">
+            </a>
+        </div>
+        <img src="/static/img/covers/los-demos.png" alt="Background Image with album cover for Cheeses of Mexico - Los Demos">
         <h1>Cheeses of Mexico - Los Demos</h1>
     </header>
     <main>
@@ -34,49 +37,49 @@
             
                 <li>
                     <a class="music-service" href="https://open.spotify.com/album/6nDfB82CacuI7MagtSYtzV?si=zLAet5oIQ66Ft3Ndvf5HoA">
-                        <img class="platform" src="/static/img/vendors/spotify.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/spotify.png" alt="spotify Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://music.apple.com/nl/album/los-demos-single/843166021?l=en">
-                        <img class="platform" src="/static/img/vendors/apple-music.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/apple-music.png" alt="apple-music Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://music.youtube.com/playlist?list=OLAK5uy_lJUujJCkGtEe1Ui_7azf_nTH-Yp4MvCAE&amp;feature=share">
-                        <img class="platform" src="/static/img/vendors/youtube.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/youtube.png" alt="youtube Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://tidal.com/browse/album/27272045">
-                        <img class="platform" src="/static/img/vendors/tidal.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/tidal.png" alt="tidal Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://cheesesofmexico.bandcamp.com/album/los-demos">
-                        <img class="platform" src="/static/img/vendors/bandcamp.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/bandcamp.png" alt="bandcamp Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://deezer.page.link/HkwY3LYGbNfhu7ei6">
-                        <img class="platform" src="/static/img/vendors/deezer.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/deezer.png" alt="deezer Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://music.amazon.com.mx/albums/B00J46U25O">
-                        <img class="platform" src="/static/img/vendors/amazon-music.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/amazon-music.png" alt="amazon-music Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
@@ -85,35 +88,7 @@
     </main>
     <footer>
         <p>By using this service you're not allowing any cookies.</p>
-        <p>I'm not collecting any data</p>
-    
-    </footer>
-
-    <script>
-        function capitalize(string) {
-            console.log(string)
-            if (string.length > 1) {       
-                return "".concat(string[0].toUpperCase(), string.slice[1, string.length]);
-            } else {
-                return string.toUpperCase();
-            }
-        }
-
-        function platformElement (platform) {
-            const li = document.createElement("li");
-            li.innerHTML = `
-                <a class="music-service" href="${platform.url}">
-                    <img class="platform" src="/static/img/vendors/${platform.serviceName}.png" alt="${capitalize(platform.serviceName)} Logo">
-                    <span class="btn">Play</span>
-                </a>`;
-            return li;
-        }
-
-        // const platforms = document.querySelector('#platforms');
-        // for (let platform of data) {
-        //     platforms.appendChild(platformElement(platform));
-        // }
-    </script>
-    
+        <p>I'm not collecting any data.</p>
+    </footer>    
 </body>
 </html>

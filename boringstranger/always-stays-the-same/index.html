@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Song page for Boring Stranger - Always Stays The Same">
 
-    <meta property="og:title" content="Boring Stranger - Always Stays The Same" />
-    <meta property="og:type" content="music:song" />
+    <meta property="og:title" content="Boring Stranger - Always Stays The Same">
+    <meta property="og:type" content="music:song">
     <meta property="og:description" content="Song page for Boring Stranger - Always Stays The Same">
     <meta property="og:url" content="https://cheesesofmexico.com/boringstranger/always-stays-the-same">
 
@@ -23,10 +22,14 @@
     
 </head>
 <body>
-    <img class="bg" src="/static/img/covers/always-stays-the-same.png" alt="Cover Image for Boring Stranger - Always Stays The Same">
-    
+    <img class="bg" src="/static/img/covers/always-stays-the-same.png" alt="Cover Image for Boring Stranger - Always Stays The Same. Boring Stranger standing on stage performing in a green robe. Stage features a circus tent.">
+
     <header>
-        <img src="/static/img/covers/always-stays-the-same.png">
+        <div class="share">
+            <a href="whatsapp://send?text=https://cheesesofmexico.com/boringstranger/always-stays-the-same"><img src="/static/img/whatsapp.svg" alt="Share on Whatsapp">
+            </a>
+        </div>
+        <img src="/static/img/covers/always-stays-the-same.png" alt="Cover image for Boring Stranger - Always Stays The Same. Boring Stranger standing on stage performing in a green robe. Stage features a circus tent.">
         <h1>Boring Stranger - Always Stays The Same</h1>
     </header>
     <main>
@@ -34,49 +37,49 @@
             
                 <li>
                     <a class="music-service" href="https://open.spotify.com/track/56p6fpu6NALhVQO6zhkLdH">
-                        <img class="platform" src="/static/img/vendors/spotify.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/spotify.png" alt="spotify Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://music.apple.com/nl/album/always-stays-the-same-single/1651026299?l=en">
-                        <img class="platform" src="/static/img/vendors/apple-music.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/apple-music.png" alt="apple-music Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://music.youtube.com/playlist?list=OLAK5uy_lsuNd3mv4XN048x7aTHG4O4KfxWDciDXw&amp;feature=share">
-                        <img class="platform" src="/static/img/vendors/youtube.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/youtube.png" alt="youtube Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://tidal.com/browse/album/255557954">
-                        <img class="platform" src="/static/img/vendors/tidal.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/tidal.png" alt="tidal Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://cheesesofmexico.bandcamp.com/track/always-stays-the-same">
-                        <img class="platform" src="/static/img/vendors/bandcamp.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/bandcamp.png" alt="bandcamp Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://deezer.page.link/EsRGpzcdcydAHAcH6">
-                        <img class="platform" src="/static/img/vendors/deezer.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/deezer.png" alt="deezer Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
             
                 <li>
                     <a class="music-service" href="https://www.amazon.com/music/player/albums/B0BK77PXP6">
-                        <img class="platform" src="/static/img/vendors/amazon-music.png" alt=" Logo">
+                        <img class="platform" src="/static/img/vendors/amazon-music.png" alt="amazon-music Logo">
                         <span class="btn">Play</span>
                     </a>
                 </li>
@@ -86,34 +89,6 @@
     <footer>
         <p>By using this service you're not allowing any cookies.</p>
         <p>I'm not collecting any data</p>
-    
     </footer>
-
-    <script>
-        function capitalize(string) {
-            console.log(string)
-            if (string.length > 1) {       
-                return "".concat(string[0].toUpperCase(), string.slice[1, string.length]);
-            } else {
-                return string.toUpperCase();
-            }
-        }
-
-        function platformElement (platform) {
-            const li = document.createElement("li");
-            li.innerHTML = `
-                <a class="music-service" href="${platform.url}">
-                    <img class="platform" src="/static/img/vendors/${platform.serviceName}.png" alt="${capitalize(platform.serviceName)} Logo">
-                    <span class="btn">Play</span>
-                </a>`;
-            return li;
-        }
-
-        // const platforms = document.querySelector('#platforms');
-        // for (let platform of data) {
-        //     platforms.appendChild(platformElement(platform));
-        // }
-    </script>
-    
 </body>
 </html>
