@@ -1,3 +1,7 @@
+---
+eleventyExcludeFromCollections: true
+permalink: false
+---
 # Cheeses of Mexico
 
 Website for Cheeses of Mexico.
