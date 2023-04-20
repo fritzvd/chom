@@ -1,4 +1,5 @@
 sjanoc/tmp/*
+google*.html
 tmp/
 .DS_Store
 _site/
