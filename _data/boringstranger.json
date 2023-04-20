@@ -37,12 +37,12 @@
         ]
     },
     {
-        "name": "always-stays-the-same",
-        "title": "Boring Stranger - Always Stays The Same",
-        "cover_400": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same_400.png",
-        "cover": "https://cheesesofmexico.com/static/img/covers/always-stays-the-same.png",
-        "url": "https://cheesesofmexico.com/boringstranger/always-stays-the-same",
-        "alt_text": "Boring Stranger standing on stage performing in a green robe. Stage features a circus tent.",
+        "name": "miserere-nobis",
+        "title": "Boring Stranger - Miserere Nobis",
+        "cover_400": "https://cheesesofmexico.com/static/img/covers/miserere-nobis_400.png",
+        "cover": "https://cheesesofmexico.com/static/img/covers/miserere-nobis.png",
+        "url": "https://cheesesofmexico.com/boringstranger/miserere-nobis",
+        "alt_text": "Upside down image of an old street and a donkey carrying something",
         "services": [
             {
                 "serviceName": "spotify",
@@ -62,15 +62,15 @@
             },
             {
                 "serviceName": "bandcamp",
-                "url": "https://cheesesofmexico.bandcamp.com/track/always-stays-the-same"
+                "url": "https://cheesesofmexico.bandcamp.com/track/miserere-nobis"
             },
             {
                 "serviceName": "deezer",
-                "url": "https://deezer.page.link/EsRGpzcdcydAHAcH6"
+                "url": "https://deezer.page.link/tMg1d58342WvcE8t6"
             },
             {
                 "serviceName": "amazon-music",
-                "url": "https://www.amazon.com/music/player/albums/B0BK77PXP6"
+                "url": "https://music.amazon.com/albums/B0C24WBV2D"
             }             
         ]
     },
