@@ -10,7 +10,9 @@ body {
 }
 header {
   background-color: unset;
+  width: unset;
 }
+
 h1 {
   font-style: normal;
   font-weight: 900;
