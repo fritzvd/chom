@@ -1,43 +1,5 @@
 [
   {
-    "name": "wrong-way",
-    "title": "Cheeses of Mexico - Wrong Way",
-    "cover_400": "https://cheesesofmexico.com/static/img/covers/wrong-way_400.png",
-    "cover": "https://cheesesofmexico.com/static/img/covers/wrong-way.png",
-    "url": "https://cheesesofmexico.com/album/wrong-way",
-    "alt_text": "A man with the text Wrong Way over it's eyes",
-    "services": [
-      {
-        "serviceName": "spotify",
-        "url": "https://open.spotify.com/album/35f32BnO67WXGzpsj5neYk?si=Bf1DOZu2TDuVCPRsyecDuw"
-      },
-      {
-        "serviceName": "apple-music",
-        "url": "https://music.apple.com/nl/album/%D9%85%D8%A7%D9%81%D9%8A%D8%B4-%D9%81%D8%A7%D9%8A%D8%AF%D8%A9-ep/1624078332?l=en"
-      },
-      {
-        "serviceName": "youtube",
-        "url": "https://music.youtube.com/playlist?list=OLAK5uy_mv8lW_CdApek9v4JX4RQtAoTdlX6ytB48&feature=share"
-      },
-      {
-        "serviceName": "tidal",
-        "url": "https://tidal.com/browse/album/228961862"
-      },
-      {
-        "serviceName": "bandcamp",
-        "url": "https://cheesesofmexico.bandcamp.com/track/wrong-way"
-      },
-      {
-        "serviceName": "deezer",
-        "url": "https://deezer.page.link/CzNKR1bwrXfCTFDh8"
-      },
-      {
-        "serviceName": "amazon-music",
-        "url": "https://amazon.com/music/player/albums/B0B1X7P5V5"
-      }
-    ]
-  },
-  {
     "name": "mafish-fayda",
     "title": "Cheeses of Mexico - Mafish Fayda",
     "cover_400": "https://cheesesofmexico.com/static/img/covers/mafish-fayda_400.png",
