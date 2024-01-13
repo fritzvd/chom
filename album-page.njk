@@ -26,6 +26,7 @@
     <img class="bg" src="/static/img/covers/{{ album.name }}.png" alt="Cover Image for {{ album.title }}">
     
     <header>
+        {% include 'nav.njk'%}
         <div class="share">
             <a href="whatsapp://send?text=Some new music for ya: {{ album.url }}"><img src="/static/img/whatsapp.svg" alt="Share on Whatsapp">
             </a>

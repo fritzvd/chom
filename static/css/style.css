@@ -25,7 +25,12 @@ nav > ul {
   list-style-type: none;
 }
 
-nav > ul > li {
+nav a {
+  color: #104dfc;
+}
+
+nav a:hover {
+  color: white;
 }
 
 nav .lni {
@@ -99,6 +104,7 @@ ul > li,
 ul a {
   padding: 1em;
   background-color: whitesmoke;
+  color: #104dfc;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -128,12 +134,12 @@ img.platform {
   justify-content: space-between;
 }
 
-a,
+/* a,
 a:focus,
 a:visited {
   color: black;
   text-decoration: none;
-}
+} */
 
 .btn {
   background: whitesmoke;
