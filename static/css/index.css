@@ -1,8 +1,9 @@
 body {
-  font-family: "Helvetica Neue Condensed Bold", "Arial Black", Arial, sans-serif;
+  font-family: "Rubik", Arial, sans-serif;
   display: grid;
+  font-weight: 500;
   /* flex-direction: column; */
-  background: url(static/img/bee2.png);
+  background: url(../img/bee2.png);
   background-repeat: repeat-y;
   background-position-x: center;
   justify-items: center;
@@ -77,6 +78,15 @@ main {
   article.album {
     filter: blur(2px);
     transition: all linear 300ms;
+  }
+
+  .albums {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .albums img {
+    width: 100%;
   }
 
   article.album:hover {

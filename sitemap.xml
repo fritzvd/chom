@@ -2,32 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://cheesesofmexico.com/album-page/</loc>
+    <lastmod>2024-01-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://cheesesofmexico.com/album/mafish-fayda/</loc>
-    <lastmod>2024-01-11</lastmod>
+    <lastmod>2024-01-13</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://cheesesofmexico.com/boringstranger/always-stays-the-same/</loc>
-    <lastmod>2024-01-11</lastmod>
+    <lastmod>2024-01-13</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://cheesesofmexico.com/dancingonglass/the-attic-album/</loc>
-    <lastmod>2024-01-11</lastmod>
+    <lastmod>2024-01-13</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://cheesesofmexico.com/</loc>
-    <lastmod>2024-01-11</lastmod>
+    <lastmod>2024-01-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cheesesofmexico.com/nav/</loc>
+    <lastmod>2024-01-13</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://cheesesofmexico.com/stats/</loc>
-    <lastmod>2024-01-11</lastmod>
+    <lastmod>2024-01-13</lastmod>
     <priority>0.8</priority>
   </url>
 

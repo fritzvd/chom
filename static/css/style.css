@@ -7,13 +7,25 @@ body {
   overflow-x: hidden;
   width: 100vw;
   /* height: 100vh; */
-  font-family: Avenir, Futura, Arial, sans-serif;
+  font-family: Avenir, Futura, Rubik, sans-serif;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background: rgb(0, 0, 0);
 }
+
+/* navigation */
+nav {
+  position: sticky;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* end navigation */
 
 header,
 main,
