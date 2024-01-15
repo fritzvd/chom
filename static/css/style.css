@@ -18,6 +18,7 @@ body {
 /* navigation */
 nav {
   position: sticky;
+  top: 0;
 }
 
 nav > ul {
@@ -59,10 +60,13 @@ header {
 .share {
   padding: 0.2rem;
   position: sticky;
-  top: 0;
-  color: white;
-  background-color: slategray;
+  bottom: 0;
+  background-color: whitesmoke;
   text-align: center;
+}
+
+.share a .blue {
+  color: #104dfc;
 }
 
 .share img {
@@ -73,7 +77,7 @@ header {
 .share a:visited {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -170,7 +174,10 @@ footer > p {
   footer {
     width: 100vw;
   }
-
+  nav ul {
+    background: whitesmoke;
+    justify-content: space-between;
+  }
   header > img {
     width: 100vw;
   }

@@ -55,9 +55,16 @@ ogimage_400: https://cheesesofmexico.com/static/img/logo_400.png
     <title>Cheeses of Mexico</title>
   </head>
   <body>
-    <header>
       {% include 'nav.njk' %}
+    <header>
       <h1>{{ title }}</h1>
+      <ul class="nav-menu">
+        <li><a href="#bio" title="bio">bio</a></li>
+        <li><a href="#video" title="video">video</a></li>
+        <li><a href="#tour" title="tour">tour</a></li>
+        <li><a href="#music" title="music">music</a></li>
+        <li><a href="#photos" title="photos">photos</a></li>
+      </ul>
     </header>
     <main>
       <section id="bio">
