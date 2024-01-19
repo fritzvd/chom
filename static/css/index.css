@@ -2,7 +2,9 @@ body {
   font-family: "Rubik", Arial, sans-serif;
   display: grid;
   font-weight: 500;
+  /* color: white; */
   /* flex-direction: column; */
+  /* background: #000e87; */
   background: url(../img/bee2.png);
   background-repeat: repeat-y;
   background-position-x: center;
