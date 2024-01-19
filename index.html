@@ -46,6 +46,21 @@
     <link rel="stylesheet" href="/static/css/style.css" />
     <link rel="stylesheet" href="/static/css/index.css" />
 
+    <script type="module">
+      import PhotoSwipeLightbox from "/static/js/photoswipe-lightbox.esm.min.js";
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: "#my-gallery",
+        children: "a",
+        pswpModule: () => import("/static/js/photoswipe.esm.min.js"),
+      });
+      lightbox.init();
+    </script>
+    <link
+      rel="stylesheet"
+      href="static/css/photoswipe.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Cheeses of Mexico</title>
   </head>
   <body>
@@ -212,6 +227,107 @@
             </a>
           </article>
           
+        </div>
+      </section>
+      <section id="photos">
+        <h2>photos</h2>
+        <div id="my-gallery">
+          <a
+            href="/static/img/press/01_studio-jan24.jpg"
+            data-pswp-width="1152"
+            data-pswp-height="768"
+            target="_blank"
+          >
+            <img
+              src="/static/img/press/thumbs/01_studio-jan24-200.jpg"
+              alt=""
+            />
+          </a>
+          <a
+            href="/static/img/press/02_studio-jan24.jpg"
+            data-pswp-width="768"
+            data-pswp-height="1152"
+            target="_blank"
+          >
+            <img
+              src="/static/img/press/thumbs/02_studio-jan24-200.jpg"
+              alt=""
+            />
+          </a>
+          <a
+            href="/static/img/press/03_studio-jan24.jpg"
+            data-pswp-width="1152"
+            data-pswp-height="768"
+            target="_blank"
+          >
+            <img
+              src="/static/img/press/thumbs/03_studio-jan24-200.jpg"
+              alt=""
+            />
+          </a>
+          <a
+            href="/static/img/press/04_studio-jan24.jpg"
+            data-pswp-width="1152"
+            data-pswp-height="768"
+            target="_blank"
+          >
+            <img
+              src="/static/img/press/thumbs/04_studio-jan24-200.jpg"
+              alt=""
+            />
+          </a>
+          <a
+            href="/static/img/press/05_studio-jan24.jpg"
+            data-pswp-width="1152"
+            data-pswp-height="768"
+            target="_blank"
+          >
+            <img
+              src="/static/img/press/thumbs/05_studio-jan24-200.jpg"
+              alt=""
+            />
+          </a>
+
+          <a
+            href="/static/img/press/bob.jpg"
+            data-pswp-width="1067"
+            data-pswp-height="1067"
+            target="_blank"
+          >
+            <img src="/static/img/press/thumbs/bob-200.jpg" alt="" />
+          </a>
+          <a
+            href="/static/img/press/fritz.jpg"
+            data-pswp-width="1067"
+            data-pswp-height="1067"
+            target="_blank"
+          >
+            <img src="/static/img/press/thumbs/fritz-200.jpg" alt="" />
+          </a>
+          <a
+            href="/static/img/press/jilles.jpg"
+            data-pswp-width="1067"
+            data-pswp-height="1067"
+            target="_blank"
+          >
+            <img src="/static/img/press/thumbs/jilles-200.jpg" alt="" />
+          </a>
+          <a
+            href="/static/img/press/daniel.jpg"
+            data-pswp-width="1067"
+            data-pswp-height="1067"
+            target="_blank"
+          >
+            <img src="/static/img/press/thumbs/daniel-200.jpg" alt="" />
+          </a>
+          <a
+            href="/static/img/press/jona.jpg"
+            data-pswp-width="1067"
+            data-pswp-height="1067"
+            target="_blank"
+          >
+            <img src="/static/img/press/thumbs/jona-200.jpg" alt="" />
+          </a>
         </div>
       </section>
     </main>
