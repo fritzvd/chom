@@ -1,0 +1,71 @@
+---
+title: Cheeses of Mexico Links
+url: https://cheesesofmexico.com/links
+permalink: "links/index.html"
+date: Last Modified
+data: links
+ogimage_400: https://cheesesofmexico.com/static/img/logo_400.png
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1">
+    <meta name="description" content="Cheeses of Mexico Linktree">
+
+    <meta property="og:title" content="Links for Cheeses of Mexico">
+    <meta property="og:type" content="link:tree">
+    <meta property="og:description" content="Linktree for Cheeses of Mexico">
+    <meta property="og:url" content="https://cheesesofmexico.com/links/">
+
+    <meta property="og:image" content="{{ ogimage_400 }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+
+    <title>Cheeses of Mexico Linktree</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/static/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        body {
+         -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+        }         
+    </style>
+</head>
+<body>
+    <img class="bg" src="/static/img/logo_400.png" alt="Cheeses of Mexico logo with hand">
+    
+    <h1>Cheeses of Mexico Linktree</h1>
+    <main>
+        <ul id="platforms" class="links">
+            {% for link in links %}
+                <li>
+                    <a class="music-service" href="{{ link.url }}">
+                        <span class="btn">
+                        {% if link.img %}
+                        <img src="{{ link.img }}" alt="{{ link.alt }}">
+                        {% else %}
+                        <i class="lni {{ link.icon if link.icon else 'lni-link'}}"></i>
+                        {% endif %}
+                            {{ link.title }}
+                        </span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <p>By using this service you're not allowing any cookies.</p>
+        <p>I'm not collecting any data</p>
+    </footer>
+{% include 'stats.njk' %}
+</body>
+</html>

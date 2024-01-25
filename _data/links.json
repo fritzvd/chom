@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Gluren bij de Buren",
+    "url": "https://glurenbijdeburen.nl/nl/programma/ede#490"
+  },
+  {
+    "title": "Cheeses of Mexico Homepage",
+    "url": "https://cheesesofmexico.com"
+  },
+  {
+    "title": "Spotify",
+    "url": "https://open.spotify.com/artist/07MiPHFApChVJZu5nydXSP?si=TUl0gFEgTKquAYmdCuB4XA",
+    "icon": "lni-spotify"
+  },
+  {
+    "title": "Apple",
+    "url": "https://music.apple.com/nl/artist/cheeses-of-mexico/626277090?l=en-GB",
+    "icon": "lni-music"
+  },
+  {
+    "title": "Youtube",
+    "url": "https://youtube.com/@cheesesofmexico",
+    "icon": "lni-youtube"
+  },
+  {
+    "title": "Instagram",
+    "url": "https://instagram.com/cheesesofmexico",
+    "icon": "lni-instagram"
+  },
+  {
+    "title": "Facebook",
+    "url": "https://facebook.com/cheesesofmexico",
+    "icon": "lni-facebook"
+  },
+  {
+    "title": "Twitter",
+    "url": "https://twitter.com/cheesesofmexico",
+    "icon": "lni-twitter"
+  }
+]
