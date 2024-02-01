@@ -147,6 +147,10 @@ img.platform {
   width: auto;
 }
 
+a.music-service:hover {
+  transform: unset;
+}
+
 .music-service {
   width: 100%;
   display: flex;
