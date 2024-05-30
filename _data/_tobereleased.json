@@ -1,0 +1,42 @@
+{
+  "name": "Oupa",
+  "title": "Cheeses of Mexico - Oupa",
+  "cover_400": "https://cheesesofmexico.com/static/img/covers/oupa_400.png",
+  "cover": "https://cheesesofmexico.com/static/img/covers/oupa.png",
+  "url": "https://cheesesofmexico.com/album/oupa",
+  "alt_text": "Old man with a super 8 camera on the beach",
+  "services": [
+    {
+      "serviceName": "spotify",
+      "url": "https://open.spotify.com/track/32a0JAZftHodQQlaf65niD?si=0d5e7bdbc9374a19"
+    },
+    {
+      "serviceName": "apple-music",
+      "url": "https://music.apple.com/nl/album/oupa/1725558075?i=1725558076&app=music"
+    },
+    {
+      "serviceName": "youtube",
+      "url": "https://youtube.com/watch?v=-7P8sMsi_Jw"
+    },
+    {
+      "serviceName": "tidal",
+      "url": "https://listen.tidal.com/track/339755730"
+    },
+    {
+      "serviceName": "soundcloud",
+      "url": "https://soundcloud.com/cheesesofmexico/oupa"
+    },
+    {
+      "serviceName": "bandcamp",
+      "url": "https://cheesesofmexico.bandcamp.com/track/oupa"
+    },
+    {
+      "serviceName": "deezer",
+      "url": "https://www.deezer.com/track/2619769822"
+    },
+    {
+      "serviceName": "amazon-music",
+      "url": "https://music.amazon.com/albums/B0CS7X69TX?trackAsin=B0CS7X6K34"
+    }
+  ]
+}
