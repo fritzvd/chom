@@ -1,5 +1,47 @@
 [
   {
+    "name": "Oupa",
+    "title": "Cheeses of Mexico - Oupa",
+    "cover_400": "https://cheesesofmexico.com/static/img/covers/oupa_400.png",
+    "cover": "https://cheesesofmexico.com/static/img/covers/oupa.png",
+    "url": "https://cheesesofmexico.com/album/oupa",
+    "alt_text": "Old man with a super 8 camera on the beach",
+    "services": [
+      {
+        "serviceName": "spotify",
+        "url": "https://open.spotify.com/playlist/6wb5EFyzIUipLE6GZTLLDy?si=c7bb562548fe42ec"
+      },
+      {
+        "serviceName": "apple-music",
+        "url": "https://music.apple.com/nl/album/oupa-gramps-single/1748603025?l=en-GB"
+      },
+      {
+        "serviceName": "youtube",
+        "url": "https://music.youtube.com/watch?v=zIQxjs7wdUQ&feature=shared"
+      },
+      {
+        "serviceName": "tidal",
+        "url": "https://tidal.com/browse/playlist/df587432-5e5e-4d9c-aafd-59056e5a3357"
+      },
+      {
+        "serviceName": "soundcloud",
+        "url": "https://soundcloud.com/cheesesofmexico/oupa"
+      },
+      {
+        "serviceName": "bandcamp",
+        "url": "https://cheesesofmexico.bandcamp.com/track/oupa"
+      },
+      {
+        "serviceName": "deezer",
+        "url": "https://www.deezer.com/track/2822316662"
+      },
+      {
+        "serviceName": "amazon-music",
+        "url": "https://music.amazon.com/albums/B0D5BRCYDG"
+      }
+    ]
+  },
+  {
     "name": "wrong-way",
     "title": "Cheeses of Mexico - Wrong Way",
     "cover_400": "https://cheesesofmexico.com/static/img/covers/wrong-way_400.png",
@@ -9,7 +51,7 @@
     "services": [
       {
         "serviceName": "spotify",
-        "url": "https://open.spotify.com/track/32a0JAZftHodQQlaf65niD?si=0d5e7bdbc9374a19"
+        "url": "https://open.spotify.com/album/1p4Kkt6yYS0QVC1R2d9cYZ"
       },
       {
         "serviceName": "apple-music",

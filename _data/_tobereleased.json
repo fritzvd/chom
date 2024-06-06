@@ -8,19 +8,19 @@
   "services": [
     {
       "serviceName": "spotify",
-      "url": "https://open.spotify.com/track/32a0JAZftHodQQlaf65niD?si=0d5e7bdbc9374a19"
+      "url": "https://open.spotify.com/playlist/6wb5EFyzIUipLE6GZTLLDy?si=c7bb562548fe42ec"
     },
     {
       "serviceName": "apple-music",
-      "url": "https://music.apple.com/nl/album/oupa/1725558075?i=1725558076&app=music"
+      "url": "https://music.apple.com/nl/album/oupa-gramps-single/1748603025?l=en-GB"
     },
     {
       "serviceName": "youtube",
-      "url": "https://youtube.com/watch?v=-7P8sMsi_Jw"
+      "url": "https://music.youtube.com/watch?v=zIQxjs7wdUQ&feature=shared"
     },
     {
       "serviceName": "tidal",
-      "url": "https://listen.tidal.com/track/339755730"
+      "url": "https://tidal.com/browse/playlist/df587432-5e5e-4d9c-aafd-59056e5a3357"
     },
     {
       "serviceName": "soundcloud",
@@ -32,11 +32,11 @@
     },
     {
       "serviceName": "deezer",
-      "url": "https://www.deezer.com/track/2619769822"
+      "url": "https://www.deezer.com/track/2822316662"
     },
     {
       "serviceName": "amazon-music",
-      "url": "https://music.amazon.com/albums/B0CS7X69TX?trackAsin=B0CS7X6K34"
+      "url": "https://music.amazon.com/albums/B0D5BRCYDG"
     }
   ]
 }
