@@ -1,10 +1,10 @@
 {
-  "name": "Oupa",
-  "title": "Cheeses of Mexico - Oupa",
-  "cover_400": "https://cheesesofmexico.com/static/img/covers/oupa_400.png",
-  "cover": "https://cheesesofmexico.com/static/img/covers/oupa.png",
-  "url": "https://cheesesofmexico.com/album/oupa",
-  "alt_text": "Old man with a super 8 camera on the beach",
+  "name": "floating",
+  "title": "Cheeses of Mexico - Floating",
+  "cover_400": "https://cheesesofmexico.com/static/img/covers/floating_400.png",
+  "cover": "https://cheesesofmexico.com/static/img/covers/floating.png",
+  "url": "https://cheesesofmexico.com/album/floating",
+  "alt_text": "Vampire-like guy with letters spelling: 'floating' over his eyes",
   "services": [
     {
       "serviceName": "spotify",
@@ -12,7 +12,7 @@
     },
     {
       "serviceName": "apple-music",
-      "url": "https://music.apple.com/nl/album/oupa-gramps-single/1748603025?l=en-GB"
+      "url": "https://music.apple.com/nl/album/floating-gramps-single/1748603025?l=en-GB"
     },
     {
       "serviceName": "youtube",
@@ -24,11 +24,11 @@
     },
     {
       "serviceName": "soundcloud",
-      "url": "https://soundcloud.com/cheesesofmexico/oupa"
+      "url": "https://soundcloud.com/cheesesofmexico/floating"
     },
     {
       "serviceName": "bandcamp",
-      "url": "https://cheesesofmexico.bandcamp.com/track/oupa"
+      "url": "https://cheesesofmexico.bandcamp.com/track/floating"
     },
     {
       "serviceName": "deezer",

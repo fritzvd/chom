@@ -1,5 +1,47 @@
 [
   {
+    "name": "floating",
+    "title": "Cheeses of Mexico - Floating",
+    "cover_400": "https://cheesesofmexico.com/static/img/covers/floating_400.png",
+    "cover": "https://cheesesofmexico.com/static/img/covers/floating.png",
+    "url": "https://cheesesofmexico.com/album/floating",
+    "alt_text": "Vampire-like guy with letters spelling: 'floating' over his eyes",
+    "services": [
+      {
+        "serviceName": "spotify",
+        "url": "https://open.spotify.com/playlist/6wb5EFyzIUipLE6GZTLLDy"
+      },
+      {
+        "serviceName": "apple-music",
+        "url": "https://music.apple.com/nl/album/floating-feat-berthilde-wieke-cataleya-emma-galanaki/1793597970"
+      },
+      {
+        "serviceName": "youtube",
+        "url": "https://music.youtube.com/watch?v=_nEyC9N1Bo4&list=PLtUzpUpXcQAB-LPsCsasUujw50sMf3j-U"
+      },
+      {
+        "serviceName": "tidal",
+        "url": "https://tidal.com/browse/playlist/df587432-5e5e-4d9c-aafd-59056e5a3357"
+      },
+      {
+        "serviceName": "soundcloud",
+        "url": "https://soundcloud.com/cheesesofmexico/floating"
+      },
+      {
+        "serviceName": "bandcamp",
+        "url": "https://cheesesofmexico.bandcamp.com/track/floating"
+      },
+      {
+        "serviceName": "deezer",
+        "url": "https://deezer.page.link/Ks55ifSEpDVCyVocA"
+      },
+      {
+        "serviceName": "amazon-music",
+        "url": "https://music.amazon.com/albums/B0DVHPH1DP"
+      }
+    ]
+  },
+  {
     "name": "oupa",
     "title": "Cheeses of Mexico - Oupa",
     "cover_400": "https://cheesesofmexico.com/static/img/covers/oupa_400.png",
