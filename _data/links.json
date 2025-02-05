@@ -5,6 +5,11 @@
     "img": "/static/img/covers/floating_thumb.png"
   },
   {
+    "title": "Join our Mailing",
+    "url": "https://forms.gle/Tub6PmXfZC4yjmut5",
+    "icon": "lni-envelope"
+  },
+  {
     "title": "Cheeses of Mexico Homepage",
     "url": "https://cheesesofmexico.com"
   },
