@@ -1,5 +1,5 @@
 body {
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: 'Rubik', Arial, sans-serif;
   display: grid;
   font-weight: 500;
   /* color: white; */
@@ -43,6 +43,10 @@ main {
 section {
   /* text-align: center; */
   padding: 2em;
+}
+
+section#mailing {
+  padding: 0;
 }
 
 #bio a {
