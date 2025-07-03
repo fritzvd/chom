@@ -1,5 +1,19 @@
 [
   {
+    "name": "my-wraggies",
+    "title": "Cheeses of Mexico - My Wraggies",
+    "cover_400": "https://cheesesofmexico.com/static/img/covers/my-wraggies_400.png",
+    "cover": "https://cheesesofmexico.com/static/img/covers/my-wraggies.png",
+    "url": "https://cheesesofmexico.com/album/my-wraggies",
+    "alt_text": "A hand coming through curtains ready to shake and introduce",
+    "services": [
+      {
+        "serviceName": "bandcamp",
+        "url": "https://cheesesofmexico.bandcamp.com/album/my-wraggies"
+      }
+    ]
+  },
+  {
     "name": "floating",
     "title": "Cheeses of Mexico - Floating",
     "cover_400": "https://cheesesofmexico.com/static/img/covers/floating_400.png",
@@ -22,6 +36,10 @@
       {
         "serviceName": "tidal",
         "url": "https://tidal.com/browse/playlist/df587432-5e5e-4d9c-aafd-59056e5a3357"
+      },
+      {
+        "serviceName": "bandwagon",
+        "url": "https://bandwagon.fm/6799e387f050061c8b491f39"
       },
       {
         "serviceName": "soundcloud",
