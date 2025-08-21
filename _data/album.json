@@ -10,6 +10,34 @@
       {
         "serviceName": "bandcamp",
         "url": "https://cheesesofmexico.bandcamp.com/album/my-wraggies"
+      },
+      {
+        "serviceName": "spotify",
+        "url": "https://open.spotify.com/playlist/6wb5EFyzIUipLE6GZTLLDy?si=c7bb562548fe42ec"
+      },
+      {
+        "serviceName": "apple-music",
+        "url": "https://music.apple.com/nl/album/my-wraggies-ep/1823358274?l=en-GB"
+      },
+      {
+        "serviceName": "youtube",
+        "url": "https://music.youtube.com/playlist?list=OLAK5uy_n3Cp_G388jYYlK-CaA0lZDqBjE8xAdfBw&si=BdW1z3sEJgvFcx_o"
+      },
+      {
+        "serviceName": "tidal",
+        "url": "https://tidal.com/browse/track/444354761?u"
+      },
+      {
+        "serviceName": "soundcloud",
+        "url": "https://soundcloud.com/cheesesofmexico/"
+      },
+      {
+        "serviceName": "deezer",
+        "url": "https://www.deezer.com/album/779038601"
+      },
+      {
+        "serviceName": "amazon-music",
+        "url": "https://music.amazon.com/albums/B0FFKW5L1D"
       }
     ]
   },
